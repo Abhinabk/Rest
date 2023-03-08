@@ -1,0 +1,24 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "Trying out some rest stuff.... <br /> Initial routes <br /> GET /comments -> list all the comments <br /> POST /comments -> Create a new comment <br /> GET /comments/:{id} -> Get one commnet using an id<br /> PATCH /comments/:{id} -> Update a comment <br /> DELETE /comment/:{id} -> Delete a comment<br />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhinabk/Rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhinabk/Rest/issues"
+  },
+  "homepage": "https://github.com/Abhinabk/Rest#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
