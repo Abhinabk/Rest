@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Form</title>
+</head>
+<body>
+    <h1>Make a new comment</h1>
+    <form action="/comments" method="post">
+        <section> 
+            <!-- name is used to refer to key in the key:value par of the url -->
+            <!-- After we click submit the usr turn into 
+            http://localhost:3000/comments/new?name=asdasd&comment=asdasd -->
+            <label for="username">Enter username</label>
+            <input type="text" id = "username" placeholder="username" name="username">
+        </section>
+        <br>
+        <section>
+            <label for="comment"></label>
+            <textarea name="comment" id="" cols="30" rows="0"></textarea>
+        </section>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
